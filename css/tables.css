@@ -1,0 +1,48 @@
+
+
+header{
+    text-align: center;
+    padding: 200px;
+    color: white;
+    font-family: "Helvetica Neue";
+    font-weight: 900 !important;
+    background-image: url("/jbpl23/assets/img/pools-background.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+
+header > h1{
+    font-weight: bold;
+}
+
+.table {
+    font-size: large;
+    margin: 20px;
+    opacity: 0.7;
+}
+
+ul {
+    margin-bottom: 0 !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+ a:not(.active) {
+margin-top: 25px;
+}
+
+ /* a:hover {
+background-color: #ddd;
+} */
+
+.active {
+    margin: 10px;
+}

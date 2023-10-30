@@ -1,0 +1,22 @@
+.players {
+    justify-content: center;
+    display: flex;
+}
+
+.players > div{
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 10px;
+    width: 33%;
+}
+
+.players > div > .picture {
+    /* background-color: red; */
+    width: 60%;
+    height: 100%;
+    margin: 0px;
+}
+.players > div > .picture > img {
+    width: 100%;
+    height: 100%;
+}
