@@ -4680,3 +4680,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 .rounded-circle {
   border-radius: 50%;
 }
+.minus-mobile {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
+@media screen and (max-device-width: 480px) {
+  .minus-mobile {
+      display: none;
+  }
+  .mobile {
+      display: block;
+  }
+}
